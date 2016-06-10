@@ -48,7 +48,7 @@ def main():
 	dishwasher = Dishwasher()
 	while True:
 		dishwasher.isProgramStopped()
-		time.sleep(5)
+		time.sleep(10)
 	
 if __name__ == "__main__":
 	main()
