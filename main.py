@@ -6,19 +6,9 @@ class Dishwasher:
 	def __init__(self):
 		self.rgb = (170,9,5)
 		self.is_program_stopped = True
-		self.preview = 0
-		self.width = 240
-		self.height = 320
 		self.file_name = 'preview.jpg'
 		self.hsv=0
-		self.red = ((128,0,0),
- 		(139,0,0),
- 		(165,42,42),
- 		(178,34,34),
- 		(220,20,60),
- 		(255,0,0),
- 		(255,99,71),
- 		(255,127,80))
+
 
 	
 
